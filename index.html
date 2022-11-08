@@ -6,25 +6,498 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <section class="welcome-section">
         <header class="header">
-            <img src="img/logo.png" alt="Логотип" class="header-logo">
-            <ul class="header-nav">
-                <li>Home</li>
-                <li>Product</li>
-                <li>Pricing</li>
-                <li>About</li>
-                <li>Contact</li>
+            <div class="header-logo-container">
+                <a href="#"><img src="img/logo.png" alt="Логотип" class="header-logo"></a>
+            </div>
+            <ul class="header-list">
+                <li class="header-list-item"><a href="#">Home</a></li>
+                <li class="header-list-item"><a href="#">Product</a></li>
+                <li class="header-list-item"><a href="#">Pricing</a></li>
+                <li class="header-list-item"><a href="#">About</a></li>
+                <li class="header-list-item"><a href="#">Contact</a></li>
             </ul>
-            <form>
-                <input type="text">
-                <button>Subscribe</button>
+            <form class="header-form">
+                <input class="header-form-input" type="text" placeholder="Your Email">
+                <button class="header-form-button">Subscribe</button>
             </form>
         </header>
+        <div class="center-section">
+            <p class="center-section-text">At your fingertips</p>
+            <h1 class="center-section-title">Lightning fast prototyping </h1>
+            <p class="center-section-subtitle">Most calendars are designed for teams. Slate is designed<br>
+                for freelancers</p>
+            <button class="center-section-button">
+                Try for free
+            </button>
+        </div>
+        <div class="welcome-section-img-container">
+            <img class="welcome-section-img" src="img/macbook.png" alt="Макбук">
+        </div>
     </section>
+    <section class="features">
+        <div class="features-center">
+            <p class="features-center-text">
+                At your fingertips
+            </p>
+            <h2 class="features-center-title">
+                Features
+            </h2>
+            <p class="features-center-subtitle">
+                Most calendars are designed for teams.<br>
+                Slate is designed for freelancers
+            </p>
+        </div>
+        <div class="features-container">
+            <div class="features-img-container">
+                <img class="features-img" src="../sprint-1/img/content.png" alt="Снимок экрана">
+            </div>
+            <div class="features-container-items">
+                <div class="features-first-item">
+                    <div class="features-first-title">
+                        <img src="../sprint-1/img/menu.svg" alt="Значок меню">
+                        <h3 class="features-first-item-title">At your fingertips</h3>
+                    </div>
+                    <p class="features-first-item-text">
+                        Slate helps you see how many <br>
+                        more days you need to work to <br>
+                        reach your financial goal.
+                    </p>
+                </div>
+                <div class="features-second-item">
+                    <div class="features-first-title">
+                        <img src="../sprint-1/img/menu.svg" alt="Значок меню">
+                        <h3 class="features-first-item-title">At your fingertips</h3>
+                    </div>
+                    <p class="features-second-item-text">
+                        Slate helps you see how many <br>
+                        more days you need to work to <br>
+                        reach your financial goal.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lighting">
+        <div class="lighting-center">
+            <p class="lighting-center-subtitle">
+                At your fingertips
+            </p>
+            <h2 class="lighting-center-title">
+                Lightning fast prototyping
+            </h2>
+            <p class="lighting-center-text">
+                Most calendars are designed for teams. <br>
+                Slate is designed for freelancers
+            </p>
+        </div>
+        <div class="lighting-buttons">
+            <button class="lighting-button-1">
+                Buy now
+            </button>
+            <button class="lighting-button-2">
+                Try for free
+            </button>
+        </div>
+    </section>
+    <section class="subscribe">
+        <div class="subscribe-center">
+            <div class="subscribe-img-container">
+                <img class="subscribe-img" src="../sprint-1/img/newsletter.svg" alt="Человек с конвертом">
+            </div>
+            <div class="subscribe-center-title">
+                <p class="subscribe-center-subtitle">
+                    At your fingertips
+                </p>
+                <h2 class="subscribe-center-title-main">
+                    Lightning fast <br>
+                    prototyping
+                </h2>
+                <div class="subscribe-news">
+                    <h3 class="subscribe-news-title">
+                        Subscribe to our Newsletter
+                    </h3>
+                    <p class="subscribe-news-text">
+                        Available exclusivery on Figmaland
+                    </p>
+                    <form class="subscribe-news-form">
+                        <input class="subscribe-form-input" type="text" placeholder="Your Email">
+                        <button class="subscribe-form-button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="partners">
+        <div class="partners-center">
+            <h2 class="partners-center-title">
+                Partners
+            </h2>
+            <p class="partners-center-text">
+                Most calendars are designed for teams. <br>
+                Slate is designed for freelancers
+            </p>
+            <div class="partners-center-list">
+                <ul class="partners-center-images">
+                    <li class="partners-center-item"><img src="../sprint-1/img/p1.svg" alt="Партнер №1"></li>
+                    <li class="partners-center-item"><img src="../sprint-1/img/p2.svg" alt="Партнер №2"></li>
+                    <li class="partners-center-item"><img src="../sprint-1/img/p3.svg" alt="Партнер №3"></li>
+                    <li class="partners-center-item"><img src="../sprint-1/img/p4.svg" alt="Партнер №4"></li>
+                    <li class="partners-center-item"><img src="../sprint-1/img/p5.svg" alt="Партнер №5"></li>
+                    <li class="partners-center-item"><img src="../sprint-1/img/p6.svg" alt="Партнер №6"></li>
+                    <li class="partners-center-item"><img src="../sprint-1/img/p7.svg" alt="Партнер №7"></li>
+                </ul>
+            </div>
+            <button class="partners-center-button">
+                Try For Free
+            </button>
+        </div>
+    </section>
+    <section class="testimonials">
+        <h2 class="testimonials-title">
+            Testimonials
+        </h2>
+        <div class="testimonials-cards">
+            <div class="testimonials-card-1">
+                <img class="testimonials-card-img" src="../sprint-1/img/card1.png" alt="">
+                <p class="testimonials-card-text">
+                    Slate helps you see how many
+                    more days you need to work
+                    to reach your financial goal for
+                    the month and year.
+                </p>
+                <ul class="testimonials-card-stars">
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-blank.svg" alt="Звезда пустая">
+                    </li>
+                </ul>
+                <p class="testimonials-card-name">
+                    Regina Miles
+                </p>
+                <p class="testimonials-card-work">
+                    Designer
+                </p>
+            </div>
+            <div class="testimonials-card-1">
+                <img class="testimonials-card-img" src="../sprint-1/img/card2.png" alt="">
+                <p class="testimonials-card-text">
+                    Slate helps you see how many
+                    more days you need to work
+                    to reach your financial goal for
+                    the month and year.
+                </p>
+                <ul class="testimonials-card-stars">
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-blank.svg" alt="Звезда пустая">
+                    </li>
+                </ul>
+                <p class="testimonials-card-name">
+                    Regina Miles
+                </p>
+                <p class="testimonials-card-work">
+                    Designer
+                </p>
+            </div>
+            <div class="testimonials-card-1">
+                <img class="testimonials-card-img" src="../sprint-1/img/card3.png" alt="">
+                <p class="testimonials-card-text">
+                    Slate helps you see how many
+                    more days you need to work
+                    to reach your financial goal for
+                    the month and year.
+                </p>
+                <ul class="testimonials-card-stars">
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-blank.svg" alt="Звезда пустая">
+                    </li>
+                </ul>
+                <p class="testimonials-card-name">
+                    Regina Miles
+                </p>
+                <p class="testimonials-card-work">
+                    Designer
+                </p>
+            </div>
+            <div class="testimonials-card-1">
+                <img class="testimonials-card-img" src="../sprint-1/img/card4.png" alt="">
+                <p class="testimonials-card-text">
+                    Slate helps you see how many
+                    more days you need to work
+                    to reach your financial goal for
+                    the month and year.
+                </p>
+                <ul class="testimonials-card-stars">
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-blank.svg" alt="Звезда пустая">
+                    </li>
+                </ul>
+                <p class="testimonials-card-name">
+                    Regina Miles
+                </p>
+                <p class="testimonials-card-work">
+                    Designer
+                </p>
+            </div>
+            <div class="testimonials-card-1">
+                <img class="testimonials-card-img" src="../sprint-1/img/card5.png" alt="">
+                <p class="testimonials-card-text">
+                    Slate helps you see how many
+                    more days you need to work
+                    to reach your financial goal for
+                    the month and year.
+                </p>
+                <ul class="testimonials-card-stars">
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-blank.svg" alt="Звезда пустая">
+                    </li>
+                </ul>
+                <p class="testimonials-card-name">
+                    Regina Miles
+                </p>
+                <p class="testimonials-card-work">
+                    Designer
+                </p>
+            </div>
+            <div class="testimonials-card-1">
+                <img class="testimonials-card-img" src="../sprint-1/img/card6.png" alt="">
+                <p class="testimonials-card-text">
+                    Slate helps you see how many
+                    more days you need to work
+                    to reach your financial goal for
+                    the month and year.
+                </p>
+                <ul class="testimonials-card-stars">
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                    </li>
+                    <li class="testimonials-stars">
+                        <img src="../sprint-1/img/star-blank.svg" alt="Звезда пустая">
+                    </li>
+                </ul>
+                <p class="testimonials-card-name">
+                    Regina Miles
+                </p>
+                <p class="testimonials-card-work">
+                    Designer
+                </p>
+            </div>
+            <button class="testimonials-button">
+                More testimonials
+            </button>
+        </div>
+    </section>
+    <section class="pricing">
+        <div class="pricing-left">
+            <h2 class="pricing-title">
+                Pricing
+            </h2>
+            <p class="pricing-text">
+                Slate helps you see how many more days <br>
+                you need to work to reach your financial <br>
+                goal for the month and year.
+            </p>
+        </div>
+        <div class="pricing-right">
+            <h3 class="pricing-subtitle">
+                30 - DAY FREE TRIAL.
+            </h3>
+            <p class="pricing-price">
+                <span class="pricing-cost">$10</span>/ Month per User
+            </p>
+            <p class="pricing-text-right">
+                Most calendars are designed <br>
+                for teams.
+            </p>
+            <button class="pricing-button">
+                Get started
+            </button>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contact-head">
+            <h2 class="contact-head-title">
+                Contact Us
+            </h2>
+            <p class="contact-head-text">
+                Most calendars are designed for teams. <br>
+                Slate is designed for freelancers
+            </p>
+            <ul class="contact-head-networks">
+                <li class="contact-head-items">
+                    <img src="../sprint-1/img/twitter.svg" alt="Твиттер">
+                </li>
+                <li class="contact-head-items">
+                    <img src="../sprint-1/img/fb.svg" alt="Фейсбук">
+                </li>
+                <li class="contact-head-items">
+                    <img src="../sprint-1/img/in.svg" alt="Ин">
+                </li>
+            </ul>
+            <div class="contact-head-map">
+                <img src="../sprint-1/img/map.png" alt="Карта">
+            </div>
+            <ul class="contact-head-numbers">
+                <li class="contact-head-numbers-item">
+                    <img src="../sprint-1/img/point.svg" alt="Точка">
+                    <p class="contact-adress">
+                        6386 Spring St undefined Anchorage, <br>
+                        Georgia 12473 United States
+                    </p>
+                </li>
+                <li class="contact-head-numbers-item">
+                    <img src="../sprint-1/img/phone.svg" alt="Точка">
+                    <p class="contact-adress">
+                        (843) 555-0130
+                    </p>
+                </li>
+                <li class="contact-head-numbers-item">
+                    <img src="../sprint-1/img/mail.svg" alt="Точка">
+                    <p class="contact-adress">
+                        willie.jennings@example.com
+                    </p>
+                </li>
+            </ul>
+            <div class="contact-signup">
+                <h2 class="contact-signup-title">
+                    Contact Us
+                </h2>
+                <form class="subscribe-news-form">
+                    <input class="contact-form-input" type="text" placeholder="Your Name">
+                    <input class="contact-form-input" type="text" placeholder="Your Email">
+                    <input class="contact-form-input-msg" type="text" placeholder="Your Message">
+                    <input class="contact-form-button" type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-first">
+            <h2 class="footer-title">
+                Pages
+            </h2>
+            <ul class="footer-pages">
+                <li class="footer-pages-item">Home</li>
+                <li class="footer-pages-item">Product</li>
+                <li class="footer-pages-item">Pricing</li>
+                <li class="footer-pages-item">About</li>
+                <li class="footer-pages-item">Contact</li>
+            </ul>
+        </div>
+        <div class="footer-second">
+            <h2 class="footer-title">
+                Tomothy
+            </h2>
+            <ul class="footer-tomothy">
+                <li class="footer-tomothy-item">Eleanor Edwards</li>
+                <li class="footer-tomothy-item">Ted Robertson</li>
+                <li class="footer-tomothy-item">Annette Russell</li>
+                <li class="footer-tomothy-item">Jennie Mckinney</li>
+                <li class="footer-tomothy-item">Gloria Richards</li>
+            </ul>
+        </div>
+        <div class="footer-third">
+            <h2 class="footer-title">
+                Jane Black
+            </h2>
+            <ul class="footer-jane">
+                <li class="footer-jane-item">Philip Jones </li>
+                <li class="footer-jane-item">Product</li>
+                <li class="footer-jane-item">Colleen Russell</li>
+                <li class="footer-jane-item">Marvin Hawkins</li>
+                <li class="footer-jane-item">Bruce Simmmons</li>
+            </ul>
+        </div>
+        <div class="footer-fourth">
+            <ul class="footer-networks">
+                <li class="footer-networks-item"><img src="../sprint-1/img/twitterW.svg" alt=""></li>
+                <li class="footer-networks-item"><img src="../sprint-1/img/fbW.svg" alt=""></li>
+                <li class="footer-networks-item"><img src="../sprint-1/img/inW.svg" alt=""></li>
+            </ul>
+            <h2 class="footer-title footer-title-subscribe">
+                Subscribe to our Newsletter
+            </h2>
+            <p class="footer-fourth-text">Available exclusivery on Figmaland</p>
+            <form class="footer-form">
+                <input class="footer-form-input" type="text" placeholder="Your Email">
+                <button class="footer-form-button">Subscribe</button>
+            </form>
+        </div>
+    </footer>
 </body>
 
 </html>
