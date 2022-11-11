@@ -292,7 +292,7 @@ a {
 }
 
 .subscribe-img-container {
-    margin: 216px 72px 110px 50px;
+    margin: 216px 112px 110px 0px;
 }
 
 .subscribe-center-title {
@@ -655,6 +655,9 @@ a {
     border: 1px solid #E8E8E8;
     margin-bottom: 45px;
     width: 768px;
+    height: 193px;
+    font-family: 'Roboto', sans-serif;
+    resize: none;
 }
 
 .footer {
