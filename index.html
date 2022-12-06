@@ -2,12 +2,12 @@
 <html lang="ru">
 
 <head>
-    <title>Спринт №1</title>
+    <title>Спринт №2</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -27,11 +27,26 @@
                 <input class="header-form-input" type="text" placeholder="Your Email">
                 <button class="header-form-button">Subscribe</button>
             </form>
+            <div class="header-buttons">
+                <button class="header-login-button">Login</button>
+                <div class="header-menu-mobile">
+                    <button class="header-menu-mobile-button">
+                        <img src="./img/menuMobileButton.svg" alt="Меню">
+                    </button>
+                    <ul class="header-menu-mobile-list">
+                        <li class="header-menu-mobile-item"><a class="link" href="#">Home</a></li>
+                        <li class="header-menu-mobile-item"><a class="link" href="#">Product</a></li>
+                        <li class="header-menu-mobile-item"><a class="link" href="#">Pricing</a></li>
+                        <li class="header-menu-mobile-item"><a class="link" href="#">About</a></li>
+                        <li class="header-menu-mobile-item"><a class="link" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </header>
         <div class="center-section">
             <p class="center-section-text">At your fingertips</p>
             <h1 class="center-section-title">Lightning fast prototyping </h1>
-            <p class="center-section-subtitle">Most calendars are designed for teams. Slate is designed<br>
+            <p class="center-section-subtitle">Most calendars are designed for teams. Slate is designed
                 for freelancers</p>
             <button class="center-section-button">
                 Try for free
@@ -56,12 +71,12 @@
         </div>
         <div class="features-container">
             <div class="features-img-container">
-                <img class="features-img" src="../sprint-1/img/content.png" alt="Снимок экрана">
+                <img class="features-img" src="img/content.png" alt="Снимок экрана">
             </div>
             <div class="features-container-items">
                 <div class="features-first-item">
                     <div class="features-first-title">
-                        <img src="../sprint-1/img/menu.svg" alt="Значок меню">
+                        <img src="img/menu.svg" alt="Значок меню">
                         <h3 class="features-first-item-title">At your fingertips</h3>
                     </div>
                     <p class="features-first-item-text">
@@ -72,7 +87,7 @@
                 </div>
                 <div class="features-second-item">
                     <div class="features-first-title">
-                        <img src="../sprint-1/img/menu.svg" alt="Значок меню">
+                        <img src="img/menu.svg" alt="Значок меню">
                         <h3 class="features-first-item-title">At your fingertips</h3>
                     </div>
                     <p class="features-second-item-text">
@@ -108,8 +123,20 @@
     </section>
     <section class="subscribe">
         <div class="subscribe-center">
+            <div class="subscribe-mobile-title">
+                <p class="lighting-center-subtitle subscribe-mobile-subtitle">
+                    At your fingertips
+                </p>
+                <h2 class="lighting-center-title">
+                    Newsletter
+                </h2>
+                <p class="lighting-center-text subscribe-mobile">
+                    Most calendars are designed for teams. <br>
+                    Slate is designed for freelancers
+                </p>
+            </div>
             <div class="subscribe-img-container">
-                <img class="subscribe-img" src="../sprint-1/img/newsletter.svg" alt="Человек с конвертом">
+                <img class="subscribe-img" src="img/newsletter.svg" alt="Человек с конвертом">
             </div>
             <div class="subscribe-center-title">
                 <p class="subscribe-center-subtitle">
@@ -145,13 +172,15 @@
             </p>
             <div class="partners-center-list">
                 <ul class="partners-center-images">
-                    <li class="partners-center-item"><img src="../sprint-1/img/p1.svg" alt="Партнер №1"></li>
-                    <li class="partners-center-item"><img src="../sprint-1/img/p2.svg" alt="Партнер №2"></li>
-                    <li class="partners-center-item"><img src="../sprint-1/img/p3.svg" alt="Партнер №3"></li>
-                    <li class="partners-center-item"><img src="../sprint-1/img/p4.svg" alt="Партнер №4"></li>
-                    <li class="partners-center-item"><img src="../sprint-1/img/p5.svg" alt="Партнер №5"></li>
-                    <li class="partners-center-item"><img src="../sprint-1/img/p6.svg" alt="Партнер №6"></li>
-                    <li class="partners-center-item"><img src="../sprint-1/img/p7.svg" alt="Партнер №7"></li>
+                    <li class="partners-center-item"><img src="img/p1.svg" alt="Партнер №1"></li>
+                    <li class="partners-center-item"><img src="img/p2.svg" alt="Партнер №2"></li>
+                    <li class="partners-center-item"><img src="img/p3.svg" alt="Партнер №3"></li>
+                    <li class="partners-center-item"><img src="img/p4.svg" alt="Партнер №4"></li>
+                    <li class="partners-center-item"><img src="img/p5.svg" alt="Партнер №5"></li>
+                    <li class="partners-center-item partners-mobile-nodisplay"><img src="img/p6.svg" alt="Партнер №6">
+                    </li>
+                    <li class="partners-center-item partners-mobile-nodisplay"><img src="img/p7.svg" alt="Партнер №7">
+                    </li>
                 </ul>
             </div>
             <button class="partners-center-button">
@@ -165,7 +194,7 @@
         </h2>
         <div class="testimonials-cards">
             <div class="testimonials-card-1">
-                <img class="testimonials-card-img" src="../sprint-1/img/card1.png" alt="">
+                <img class="testimonials-card-img" src="img/card1.png" alt="">
                 <p class="testimonials-card-text">
                     Slate helps you see how many
                     more days you need to work
@@ -174,19 +203,19 @@
                 </p>
                 <ul class="testimonials-card-stars">
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-blank.svg" alt="Звезда пустая">
+                        <img src="img/star-blank.svg" alt="Звезда пустая">
                     </li>
                 </ul>
                 <p class="testimonials-card-name">
@@ -197,7 +226,7 @@
                 </p>
             </div>
             <div class="testimonials-card-1">
-                <img class="testimonials-card-img" src="../sprint-1/img/card2.png" alt="">
+                <img class="testimonials-card-img" src="img/card2.png" alt="">
                 <p class="testimonials-card-text">
                     Slate helps you see how many
                     more days you need to work
@@ -206,19 +235,19 @@
                 </p>
                 <ul class="testimonials-card-stars">
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-blank.svg" alt="Звезда пустая">
+                        <img src="img/star-blank.svg" alt="Звезда пустая">
                     </li>
                 </ul>
                 <p class="testimonials-card-name">
@@ -229,7 +258,7 @@
                 </p>
             </div>
             <div class="testimonials-card-1">
-                <img class="testimonials-card-img" src="../sprint-1/img/card3.png" alt="">
+                <img class="testimonials-card-img" src="img/card3.png" alt="">
                 <p class="testimonials-card-text">
                     Slate helps you see how many
                     more days you need to work
@@ -238,19 +267,19 @@
                 </p>
                 <ul class="testimonials-card-stars">
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-blank.svg" alt="Звезда пустая">
+                        <img src="img/star-blank.svg" alt="Звезда пустая">
                     </li>
                 </ul>
                 <p class="testimonials-card-name">
@@ -260,8 +289,8 @@
                     Designer
                 </p>
             </div>
-            <div class="testimonials-card-1">
-                <img class="testimonials-card-img" src="../sprint-1/img/card4.png" alt="">
+            <div class="testimonials-card-1 testimonials-card-mobile">
+                <img class="testimonials-card-img" src="img/card4.png" alt="">
                 <p class="testimonials-card-text">
                     Slate helps you see how many
                     more days you need to work
@@ -270,19 +299,19 @@
                 </p>
                 <ul class="testimonials-card-stars">
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-blank.svg" alt="Звезда пустая">
+                        <img src="img/star-blank.svg" alt="Звезда пустая">
                     </li>
                 </ul>
                 <p class="testimonials-card-name">
@@ -292,8 +321,8 @@
                     Designer
                 </p>
             </div>
-            <div class="testimonials-card-1">
-                <img class="testimonials-card-img" src="../sprint-1/img/card5.png" alt="">
+            <div class="testimonials-card-1 testimonials-card-mobile">
+                <img class="testimonials-card-img" src="img/card5.png" alt="">
                 <p class="testimonials-card-text">
                     Slate helps you see how many
                     more days you need to work
@@ -302,19 +331,19 @@
                 </p>
                 <ul class="testimonials-card-stars">
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-blank.svg" alt="Звезда пустая">
+                        <img src="img/star-blank.svg" alt="Звезда пустая">
                     </li>
                 </ul>
                 <p class="testimonials-card-name">
@@ -324,8 +353,8 @@
                     Designer
                 </p>
             </div>
-            <div class="testimonials-card-1">
-                <img class="testimonials-card-img" src="../sprint-1/img/card6.png" alt="">
+            <div class="testimonials-card-1 testimonials-card-mobile">
+                <img class="testimonials-card-img" src="img/card6.png" alt="">
                 <p class="testimonials-card-text">
                     Slate helps you see how many
                     more days you need to work
@@ -334,19 +363,19 @@
                 </p>
                 <ul class="testimonials-card-stars">
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-full.svg" alt="Звезда">
+                        <img src="img/star-full.svg" alt="Звезда">
                     </li>
                     <li class="testimonials-stars">
-                        <img src="../sprint-1/img/star-blank.svg" alt="Звезда пустая">
+                        <img src="img/star-blank.svg" alt="Звезда пустая">
                     </li>
                 </ul>
                 <p class="testimonials-card-name">
@@ -356,10 +385,13 @@
                     Designer
                 </p>
             </div>
+        </div>
+        <div class="testimonials-button-container">
             <button class="testimonials-button">
                 More testimonials
             </button>
         </div>
+
     </section>
     <section class="pricing">
         <div class="pricing-left">
@@ -399,34 +431,35 @@
             </p>
             <ul class="contact-head-networks">
                 <li class="contact-head-items">
-                    <img src="../sprint-1/img/twitter.svg" alt="Твиттер">
+                    <img src="img/twitter.svg" alt="Твиттер">
                 </li>
                 <li class="contact-head-items">
-                    <img src="../sprint-1/img/fb.svg" alt="Фейсбук">
+                    <img src="img/fb.svg" alt="Фейсбук">
                 </li>
                 <li class="contact-head-items">
-                    <img src="../sprint-1/img/in.svg" alt="Ин">
+                    <img src="img/in.svg" alt="Ин">
                 </li>
             </ul>
             <div class="contact-head-map">
-                <img src="../sprint-1/img/map.png" alt="Карта">
+                <img class="contact-head-map-img" src="img/map.png" alt="Карта">
+                <img class="contact-head-map-mobile" src="img/map-m.png" alt="Карта">
             </div>
             <ul class="contact-head-numbers">
                 <li class="contact-head-numbers-item">
-                    <img src="../sprint-1/img/point.svg" alt="Точка">
+                    <img src="img/point.svg" alt="Геоточка">
                     <p class="contact-adress">
                         6386 Spring St undefined Anchorage, <br>
                         Georgia 12473 United States
                     </p>
                 </li>
                 <li class="contact-head-numbers-item">
-                    <img src="../sprint-1/img/phone.svg" alt="Точка">
+                    <img src="img/phone.svg" alt="Телефон">
                     <p class="contact-adress">
                         (843) 555-0130
                     </p>
                 </li>
                 <li class="contact-head-numbers-item">
-                    <img src="../sprint-1/img/mail.svg" alt="Точка">
+                    <img src="img/mail.svg" alt="Почта">
                     <p class="contact-adress">
                         willie.jennings@example.com
                     </p>
@@ -440,7 +473,13 @@
                     <input class="contact-form-input" type="text" placeholder="Your Name">
                     <input class="contact-form-input" type="text" placeholder="Your Email">
                     <textarea class="contact-form-input-msg" placeholder="Your Message"></textarea>
-                    <input class="contact-form-button" type="submit" value="Send">
+                    <input class="contact-form-button" id="myBtn" type="button" value="Send">
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close"></span>
+                            <p>Мы обязательно с Вами свяжемся в ближайшее время. Спасибо!</p>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
@@ -484,9 +523,9 @@
         </div>
         <div class="footer-fourth">
             <ul class="footer-networks">
-                <li class="footer-networks-item"><img src="../sprint-1/img/twitterW.svg" alt=""></li>
-                <li class="footer-networks-item"><img src="../sprint-1/img/fbW.svg" alt=""></li>
-                <li class="footer-networks-item"><img src="../sprint-1/img/inW.svg" alt=""></li>
+                <li class="footer-networks-item"><img src="img/twitterW.svg" alt=""></li>
+                <li class="footer-networks-item"><img src="img/fbW.svg" alt=""></li>
+                <li class="footer-networks-item"><img src="img/inW.svg" alt=""></li>
             </ul>
             <h2 class="footer-title footer-title-subscribe">
                 Subscribe to our Newsletter
@@ -498,6 +537,7 @@
             </form>
         </div>
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

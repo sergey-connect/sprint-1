@@ -1,0 +1,166 @@
+.welcome-section {
+    padding-bottom: 134px;
+    background-image: url("../img/gradient.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $color-white;
+    margin-bottom: 96px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 40px;
+    margin-bottom: 80px;
+
+    &-logo-container {
+        padding: 10px 30px;
+        margin-right: 12px;
+    }
+
+    &-list {
+        margin-right: 40px;
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+        color: $color-white;
+
+        .header-list-item {
+            padding: 10px;
+            margin-right: 20px;
+        }
+    }
+
+    &-form-input::placeholder {
+        color: rgba(24, 23, 29, 0.25);
+    }
+
+    &-form-input {
+        color: #18171D;
+        padding: 20px 40px;
+        background: hsla(0, 0%, 94%, 0.12);
+        border-radius: 39px;
+        border: none;
+        margin-right: 12px;
+    }
+
+    &-form-button {
+        padding: 20px 40px;
+        background: $color-white;
+        border-radius: 35px;
+        border: none;
+        cursor: pointer;
+        color: $color-primary;
+        font-weight: $font-weight;
+        font-size: $font-size-base;
+        line-height: $font-size-base;
+        letter-spacing: 0.2px;
+    }
+
+    &-login-button {
+        display: none;
+        padding: 20px 40px;
+        background: $color-white;
+        border-radius: 35px;
+        border: none;
+        cursor: pointer;
+        color: $color-primary;
+        font-weight: $font-weight;
+        font-size: $font-size-base;
+        line-height: $font-size-base;
+        letter-spacing: 0.2px;
+    }
+
+    &-buttons {
+        display: flex;
+        align-items: center;
+    }
+
+    &-menu-mobile {
+        display: none;
+
+        &-button {
+            border: none;
+            background: none;
+        }
+
+        &-list {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 130px;
+            background-color: $color-white;
+            text-align: center;
+            display: none;
+
+            .link {
+                color: $color-primary;
+            }
+
+            &.active {
+                display: block;
+            }
+        }
+
+        &-item {
+            padding: 8px 0;
+        }
+    }
+}
+
+.center-section {
+    text-align: center;
+
+    &-text {
+        font-size: $font-size-secondary;
+        line-height: 33px;
+        margin-bottom: 8px;
+        font-weight: 700;
+    }
+
+    &-title {
+        padding: 10px;
+        font-size: 55px;
+        font-weight: 900;
+        line-height: 65px;
+        margin-bottom: 18 px;
+    }
+
+    &-subtitle {
+        width: auto;
+        max-width: 450px;
+        padding: 10px;
+        margin: 0 auto;
+        margin-bottom: 90px;
+        font-size: $font-size-base;
+        line-height: 20px;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 0.2px;
+    }
+
+    &-button {
+        margin-bottom: 114px;
+        width: 236px;
+        height: 65px;
+        background-color: $color-white;
+        border-radius: 35px;
+        font-size: $font-size-secondary;
+        line-height: 33px;
+        font-weight: bold;
+        color: $color-primary;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.welcome-section-img {
+    width: 100%;
+    max-width: 1054px;
+
+    &-container {
+        display: flex;
+        justify-content: center;
+    }
+}

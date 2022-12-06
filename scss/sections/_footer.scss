@@ -1,0 +1,101 @@
+.footer {
+    padding: 107px 0px;
+    background: #252B42;
+    display: flex;
+    justify-content: center;
+    color: $color-white;
+
+    &-title {
+        font-weight: 700;
+        font-size: $font-size-secondary;
+        line-height: 33px;
+        margin-bottom: 25px;
+    }
+    
+    &-pages-item,
+    &-tomothy-item,
+    &-jane-item {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 27px;
+        margin-bottom: $font-size-base;
+    }
+    
+    &-first {
+        margin-right: 128px;
+    }
+    
+    &-second {
+        margin-right: 90px;
+    }
+    
+    &-third {
+        margin-right: 154px;
+    }
+       
+    &-networks {
+        margin-bottom: 32px;
+        margin-left: -6px;
+
+        &-item {
+            display: inline;
+            margin-right: 32px;
+        }
+    }
+    
+    &-title-subscribe {
+        margin-bottom: 5px;
+    }
+    
+    &-fourth-text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 30px;
+    }
+    
+    &-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        &-input {
+            color: #18171D;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: $font-size-base;
+            background: #F4F4F4;
+            border: 1px solid #E8E8E8;
+            border-radius: 39px;
+            padding: 19px 35px;
+            cursor: pointer;
+            margin-bottom: 12px;
+            width: 95%;
+            max-width: 353px;
+        }
+        
+        &-button {
+            color: $color-white;
+            background: $color-primary;
+            font-weight: $font-weight;
+            font-size: $font-size-base;
+            line-height: $font-size-base;
+            text-align: center;
+            border-radius: 35px;
+            padding: 17px 35px;
+            border: none;
+            cursor: pointer;
+            width: 95%;
+            max-width: 353px;
+        }
+    }
+}
+
+.subscribe-mobile-title {
+    display: none;
+}
+
+.subscribe-mobile-subtitle {
+    padding-top: 80px;
+}

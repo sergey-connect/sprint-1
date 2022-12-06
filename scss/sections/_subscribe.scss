@@ -1,0 +1,82 @@
+.subscribe {
+    &-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-img {
+        max-width: 677px;
+        width: 100%;
+
+        &-container {
+            margin: 2$font-size-base 112px 110px 0px;
+        }
+    }
+
+    &-center-title {
+        font-weight: 700;
+        font-size: $font-size-secondary;
+        line-height: 33px;
+        color: #252B42;
+        margin-bottom: 17px;
+        margin-top: 90px;
+
+        &-main {
+            width: 300px;
+            font-weight: 400;
+            font-size: 46px;
+            line-height: 57px;
+            color: #252B42;
+            margin-bottom: 35px;
+        }
+    }
+
+
+
+    &-news {
+        margin-left: 10px;
+
+        &-title {
+            font-weight: 700;
+            font-size: $font-size-secondary;
+            line-height: 33px;
+            color: #252B42;
+        }
+
+        &-text {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #374754;
+        }
+    }
+
+
+
+    &-form-input::placeholder {
+        color: #18171D;
+    }
+
+    &-form-input {
+        padding: 19px 39px;
+        background: #F4F4F4;
+        border: 1px solid #E8E8E8;
+        border-radius: 39px;
+        margin-right: 12px;
+        margin-top: 34px;
+    }
+
+    &-form-button {
+        font-weight: $font-weight;
+        font-size: $font-size-base;
+        line-height: $font-size-base;
+        color: $color-white;
+        background: $color-primary;
+        border-radius: 35px;
+        border: none;
+        padding: 19px 38px;
+        cursor: pointer;
+        margin-top: 12px;
+    }
+}

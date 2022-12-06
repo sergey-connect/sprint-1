@@ -1,0 +1,63 @@
+.lighting {
+    background: linear-gradient(39.97deg, #00F3B9 0.79%, #2187FF 79.29%);
+
+    &-center {
+        text-align: center;
+        color: $color-white;
+
+        &-subtitle {
+            padding-top: 100px;
+            margin-bottom: 18px;
+            font-weight: 700;
+            font-size: $font-size-secondary;
+            line-height: 33px;
+        }
+
+        &-title {
+            margin-bottom: 26px;
+            font-weight: 400;
+            font-size: 46px;
+            line-height: 57px;
+        }
+
+        &-text {
+            margin-bottom: 90px;
+            font-weight: 700;
+            font-size: $font-size-base;
+            line-height: 20px;
+        }
+    }
+
+    &-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-button-1 {
+        color: $color-primary;
+        margin-bottom: 102px;
+        font-weight: $font-weight;
+        font-size: $font-size-base;
+        line-height: $font-size-base;
+        background: $color-white;
+        border-radius: 35px;
+        padding: 18px 31px;
+        border: none;
+        cursor: pointer;
+    }
+
+    &-button-2 {
+        color: $color-white;
+        margin-bottom: 102px;
+        margin-left: $font-size-base;
+        background: none;
+        font-weight: $font-weight;
+        font-size: $font-size-base;
+        line-height: $font-size-base;
+        border-radius: 35px;
+        padding: 18px 45px;
+        border: 1px solid $color-white;
+        cursor: pointer;
+    }
+}
